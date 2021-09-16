@@ -107,20 +107,48 @@
         Hello, WEB!
        <br>
        </div>
-    
-       <article class="forecast">
-            <h1>Weather forecast for Seattle</h1>
-            <article class="day-forecast">
+       
+       <style>
+             /* 머신 */
+            .machine {
+                margin: 0;
+                padding: .3rem;
+                background-color: #eee;
+                font: 1rem 'Fira Sans', sans-serif;
+            }
+
+            .machine > h1,
+            .g-machine {
+                margin: .5rem;
+                padding: .3rem;
+                font-size: 1.2rem;
+            }
+
+            .g-machine {
+                background: right/contain content-box border-box no-repeat
+                    url('/media/examples/rain.svg') white;
+            }
+
+            .g-machine > h2,
+            .g-machine > p {
+                margin: .2rem;
+                font-size: 1rem;
+            }
+       </style>
+
+       <article class="machine">
+            <h1>머신러닝으로 만들었습니다</h1>
+            <article class="g-machine">
                 <h2><a href="pred_pic.html">그림</a></h2>
-                <p>Rain.</p>
+                <p>이미지 티쳐블머신</p>
             </article>
-            <article class="day-forecast">
+            <article class="g-machine">
                 <h2><a href="pred_audio.html">오디오</a></h2>
-                <p>Periods of rain.</p>
+                <p>오디오 티쳐블머신</p>
             </article>
-            <article class="day-forecast">
+            <article class="g-machine">
                 <h2><a href="3.html">js</a></h2>
-                <p>Heavy rain.</p>
+                <p>###</p>
             </article>
         </article>
 
